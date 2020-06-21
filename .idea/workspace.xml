@@ -7,24 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd27278a-5560-4b33-aede-f9009d26f235" name="Default Changelist" comment="初次提交">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/EPMW_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/EPMW_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c2ea3cd3-116d-47ea-ad2d-097709722efb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c2ea3cd3-116d-47ea-ad2d-097709722efb/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/cos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EPMW.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/META-INF/EPMW.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/dao/AdminDao.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/dao/GoodsDao.class" afterDir="false" />
@@ -154,98 +137,23 @@
       <change afterPath="$PROJECT_DIR$/out/production/EPMW/vo/OrderItem.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/EPMW/vo/Page.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/EPMW/vo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/AdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/GoodsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filter/AdminLoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filter/EncodeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filter/UserLoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/AddCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/ChangeCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/ChangeOrderState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/CheckCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/CreateOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/ListMyOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/Logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/ModifyUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/ShowAllGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/admin/ChangeGoodsState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/admin/ChangeOrderStateAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/admin/LoginAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/admin/ManageOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/admin/ModifyAdminInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/admin/OrderDetailAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/admin/UpdateGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/JdbcUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/cos.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/createOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/mdui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/mdui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/mdui.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-BlackItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-BlackItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-LightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-LightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-MediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-MediumItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-RegularItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-RegularItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Thin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-ThinItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-ThinItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/goodManagerAdmin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/headerAdmin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/icons/material-icons/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/icons/material-icons/MaterialIcons-Regular.ijmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/icons/material-icons/MaterialIcons-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/icons/material-icons/MaterialIcons-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/admin_login_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/user_login_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/mdui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/mdui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/mdui.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/listMyOrders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modifyAdmin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modifyGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/orderDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/orderDetailAdmin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/orderManagerAdmin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/showCart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/epmw.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,13 +255,16 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1bXFjZFVfrtrUKGaMU56mc0iqYf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -367,10 +278,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -491,20 +402,34 @@
       <workItem from="1592533939947" duration="45282000" />
       <workItem from="1592618839547" duration="45207000" />
       <workItem from="1592701050116" duration="5677000" />
-      <workItem from="1592707379681" duration="566000" />
+      <workItem from="1592707379681" duration="4303000" />
     </task>
+    <task id="LOCAL-00001" summary="初次提交">
+      <created>1592708002772</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592708002772</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初次提交" />
     <option name="LAST_COMMIT_MESSAGE" value="初次提交" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Notifications" timestamp="1592708502955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1592708502955" />
     <state x="361" y="74" key="#Project_Structure" timestamp="1592707047829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -525,10 +450,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="599" y="130" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1588775337842" />
-    <state x="381" y="12" key="CommitChangelistDialog2" timestamp="1592707925255">
+    <state x="381" y="12" key="CommitChangelistDialog2" timestamp="1592708034883">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="381" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592707925255" />
+    <state x="381" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592708034883" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1592654428015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -541,6 +466,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="327" width="373" height="170" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1592706920822" />
+    <state x="643" y="308" width="273" height="207" key="Github.ShareDialog" timestamp="1592708631706">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="643" y="308" width="273" height="207" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1592708631706" />
     <state width="1024" height="168" key="GridCell.Tab.0.bottom" timestamp="1592705255789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -621,10 +550,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="172" key="GridCell.Tab.5.right/0.0.1536.824@0.0.1536.824" timestamp="1588816610763" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1592707332610">
+    <state x="185" y="0" key="SettingsEditor" timestamp="1592710718353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592707332610" />
+    <state x="185" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592710718353" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1592708564604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592708564604" />
     <state x="499" y="221" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1588816733514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -645,6 +578,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="305" y="55" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1536.824@0.0.1536.824" timestamp="1588816475933" />
+    <state x="439" y="215" key="git4idea.merge.GitPullDialog" timestamp="1592708247041">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="439" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1592708247041" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592496115096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
