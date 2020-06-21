@@ -1,0 +1,26 @@
+.center-div-out {
+    position: fixed;
+    left: -100%;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 0;
+}
+
+.center-div-out:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 0;
+}
+
+.center-div-in {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    position: relative;
+    right: -100%;
+}

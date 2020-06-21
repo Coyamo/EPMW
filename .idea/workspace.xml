@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="EPMW:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd27278a-5560-4b33-aede-f9009d26f235" name="Default Changelist" comment="初次提交">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/EPMW_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/EPMW_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c2ea3cd3-116d-47ea-ad2d-097709722efb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c2ea3cd3-116d-47ea-ad2d-097709722efb/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EPMW.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/META-INF/EPMW.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/dao/AdminDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/filter/AdminLoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/filter/EncodeFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/filter/UserLoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/AddCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/ChangeCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/ChangeOrderState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/CheckCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/CreateOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/ListMyOrders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/Logout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/ModifyUserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/Register.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/ShowAllGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/admin/ChangeGoodsState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/admin/ChangeOrderStateAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/admin/LoginAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/admin/ManageOrders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/admin/ModifyAdminInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/admin/OrderDetailAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/servlet/admin/UpdateGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/utils/JdbcUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/utils/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/vo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/vo/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/vo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/vo/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/vo/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/classes/vo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/lib/cos.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/createOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/css/mdui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/css/mdui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/css/mdui.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-BlackItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-RegularItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-RegularItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-ThinItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/fonts/roboto/Roboto-ThinItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/goodManagerAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/headerAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/icons/material-icons/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/icons/material-icons/MaterialIcons-Regular.ijmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/icons/material-icons/MaterialIcons-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/icons/material-icons/MaterialIcons-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/images/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/img/admin_login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/img/user_login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/js/mdui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/js/mdui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/js/mdui.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/listMyOrders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/modifyAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/modifyGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/orderDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/orderDetailAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/orderManagerAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EPMW_war_exploded/showCart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/META-INF/EPMW.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/dao/AdminDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/filter/AdminLoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/filter/EncodeFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/filter/UserLoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/AddCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/ChangeCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/ChangeOrderState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/CheckCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/CreateOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/ListMyOrders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/Logout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/ModifyUserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/Register.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/ShowAllGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/admin/ChangeGoodsState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/admin/ChangeOrderStateAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/admin/LoginAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/admin/ManageOrders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/admin/ModifyAdminInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/admin/OrderDetailAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/servlet/admin/UpdateGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/utils/JdbcUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/utils/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/vo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/vo/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/vo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/vo/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/vo/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EPMW/vo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/AdminLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/EncodeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/UserLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/AddCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/ChangeCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/ChangeOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/CheckCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/CreateOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/ListMyOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/ModifyUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/ShowAllGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/admin/ChangeGoodsState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/admin/ChangeOrderStateAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/admin/LoginAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/admin/ManageOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/admin/ModifyAdminInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/admin/OrderDetailAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/admin/UpdateGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vo/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vo/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vo/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/cos.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/createOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/mdui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/mdui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/mdui.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-BlackItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-RegularItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-RegularItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-ThinItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/roboto/Roboto-ThinItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/goodManagerAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/headerAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/material-icons/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/material-icons/MaterialIcons-Regular.ijmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/material-icons/MaterialIcons-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/material-icons/MaterialIcons-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/admin_login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/user_login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/mdui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/mdui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/mdui.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/listMyOrders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modifyAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modifyGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/orderDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/orderDetailAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/orderManagerAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/showCart.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="epmw" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="epmw" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="epmw" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="epmw: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="epmw" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="epmw: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="admin: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="epmw" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="epmw: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="goods: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="epmw" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="epmw: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="order_datail: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="epmw" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="epmw: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="orders: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="epmw" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="epmw: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Administrator\Desktop\EPMW\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JavaeeView">
+    <option name="showModules" value="false" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1bXFjZFVfrtrUKGaMU56mc0iqYf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\EPMW\web\img" />
+      <recent name="C:\Users\Administrator\Desktop\EPMW\web" />
+      <recent name="C:\Users\Administrator\Desktop\EPMW\web\js" />
+      <recent name="C:\Users\Administrator\Desktop\EPMW\web\css" />
+      <recent name="C:\Users\Administrator\Desktop\EPMW\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="EPMW:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/EPMW_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_31_EPMW" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6285" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="EPMW:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd27278a-5560-4b33-aede-f9009d26f235" name="Default Changelist" comment="" />
+      <created>1588770667553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588770667553</updated>
+      <workItem from="1588770672495" duration="4997000" />
+      <workItem from="1588815942991" duration="11725000" />
+      <workItem from="1589940614785" duration="123000" />
+      <workItem from="1589969274475" duration="12019000" />
+      <workItem from="1592301772364" duration="208000" />
+      <workItem from="1592451026272" duration="36218000" />
+      <workItem from="1592494051033" duration="9637000" />
+      <workItem from="1592533939947" duration="45282000" />
+      <workItem from="1592618839547" duration="45207000" />
+      <workItem from="1592701050116" duration="5677000" />
+      <workItem from="1592707379681" duration="566000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="初次提交" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1592707047829">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1592707047829" />
+    <state x="361" y="74" key="#SQL_Dialects" timestamp="1592563856570">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1592563856570" />
+    <state x="367" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592663175807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="367" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1592663175807" />
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1592543187262">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592543187262" />
+    <state x="599" y="130" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1588775337842">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="130" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1588775337842" />
+    <state x="381" y="12" key="CommitChangelistDialog2" timestamp="1592707925255">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="381" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592707925255" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1592654428015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1592654428015" />
+    <state x="556" y="246" key="FileChooserDialogImpl" timestamp="1592707126150">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="556" y="246" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592707126150" />
+    <state x="593" y="327" width="373" height="170" key="Github.CreateGistDialog" timestamp="1592706920822">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="593" y="327" width="373" height="170" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1592706920822" />
+    <state width="1024" height="168" key="GridCell.Tab.0.bottom" timestamp="1592705255789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592705255789" />
+    <state width="1024" height="168" key="GridCell.Tab.0.center" timestamp="1592705255789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="168" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592705255789" />
+    <state width="1024" height="168" key="GridCell.Tab.0.left" timestamp="1592705255789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="168" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592705255789" />
+    <state width="1024" height="168" key="GridCell.Tab.0.right" timestamp="1592705255789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592705255789" />
+    <state width="1024" height="168" key="GridCell.Tab.1.bottom" timestamp="1592705255660">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="168" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592705255660" />
+    <state width="1024" height="168" key="GridCell.Tab.1.center" timestamp="1592705255650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="168" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592705255650" />
+    <state width="1024" height="168" key="GridCell.Tab.1.left" timestamp="1592705255650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="168" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592705255650" />
+    <state width="1024" height="168" key="GridCell.Tab.1.right" timestamp="1592705255650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="168" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592705255650" />
+    <state width="1024" height="168" key="GridCell.Tab.2.bottom" timestamp="1592705255650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="168" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592705255650" />
+    <state width="1024" height="168" key="GridCell.Tab.2.center" timestamp="1592705255650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="168" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1592705255650" />
+    <state width="1024" height="168" key="GridCell.Tab.2.left" timestamp="1592705255650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="168" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1592705255650" />
+    <state width="1024" height="168" key="GridCell.Tab.2.right" timestamp="1592705255650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="168" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1592705255650" />
+    <state width="1024" height="154" key="GridCell.Tab.4.bottom" timestamp="1592451165320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="154" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592451165320" />
+    <state width="1024" height="154" key="GridCell.Tab.4.center" timestamp="1592451165320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="154" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1592451165320" />
+    <state width="1024" height="154" key="GridCell.Tab.4.left" timestamp="1592451165320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="154" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1592451165320" />
+    <state width="1024" height="154" key="GridCell.Tab.4.right" timestamp="1592451165320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="154" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1592451165320" />
+    <state width="1024" height="172" key="GridCell.Tab.5.bottom" timestamp="1588816610763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="172" key="GridCell.Tab.5.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588816610763" />
+    <state width="1024" height="172" key="GridCell.Tab.5.center" timestamp="1588816610763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="172" key="GridCell.Tab.5.center/0.0.1536.824@0.0.1536.824" timestamp="1588816610763" />
+    <state width="1024" height="172" key="GridCell.Tab.5.left" timestamp="1588816610763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="172" key="GridCell.Tab.5.left/0.0.1536.824@0.0.1536.824" timestamp="1588816610763" />
+    <state width="1024" height="172" key="GridCell.Tab.5.right" timestamp="1588816610763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="172" key="GridCell.Tab.5.right/0.0.1536.824@0.0.1536.824" timestamp="1588816610763" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1592707332610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592707332610" />
+    <state x="499" y="221" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1588816733514">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="221" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1588816733514" />
+    <state x="478" y="61" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1589981790004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="61" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1589981790004" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1592494052761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592494052761" />
+    <state x="485" y="314" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588775332928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="314" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1588775332928" />
+    <state x="305" y="55" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1588816475933">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="305" y="55" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1536.824@0.0.1536.824" timestamp="1588816475933" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592496115096">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592496115096" />
+  </component>
+</project>
