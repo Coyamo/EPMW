@@ -54,41 +54,41 @@
             </div>
             <div class="mdui-card-content">
                 <form id="form" action="Register" method="post" name="form1">
+                    <div style="text-align: left">
+                        <div class="mdui-textfield mdui-textfield-floating-label">
+                            <label for="username" class="mdui-textfield-label">用户名</label>
+                            <input id="username" class="mdui-textfield-input" type="text" name="username"
+                                   value="${requestScope.username}"/>
+                        </div>
 
-                    <div class="mdui-textfield mdui-textfield-floating-label">
-                        <label class="mdui-textfield-label">用户名</label>
-                        <input class="mdui-textfield-input" type="text" name="username"
-                               value="${requestScope.username}"/>
-                    </div>
+                        <div class="mdui-textfield mdui-textfield-floating-label">
+                            <label for="password" class="mdui-textfield-label">密码</label>
+                            <input id="password" class="mdui-textfield-input" type="password" name="password"
+                                   value="${requestScope.password}"/>
+                        </div>
 
-                    <div class="mdui-textfield mdui-textfield-floating-label">
-                        <label class="mdui-textfield-label">密码</label>
-                        <input class="mdui-textfield-input" type="password" name="password"
-                               value="${requestScope.password}"/>
-                    </div>
+                        <div class="mdui-textfield mdui-textfield-floating-label">
+                            <label for="password2" class="mdui-textfield-label">确认密码</label>
+                            <input id="password2" class="mdui-textfield-input" type="password" name="password2"
+                                   value="${requestScope.password2}"/>
+                        </div>
 
-                    <div class="mdui-textfield mdui-textfield-floating-label">
-                        <label class="mdui-textfield-label">确认密码</label>
-                        <input class="mdui-textfield-input" type="password" name="password2"
-                               value="${requestScope.password2}"/>
-                    </div>
+                        <div class="mdui-textfield mdui-textfield-floating-label">
+                            <label for="name" class="mdui-textfield-label">姓名</label>
+                            <input id="name" class="mdui-textfield-input" type="text" name="name"
+                                   value="${requestScope.name}"/>
+                        </div>
 
-                    <div class="mdui-textfield mdui-textfield-floating-label">
-                        <label class="mdui-textfield-label">姓名</label>
-                        <input class="mdui-textfield-input" type="text" name="name"
-                               value="${requestScope.name}"/>
-                    </div>
+                        <div class="mdui-textfield mdui-textfield-floating-label">
+                            <label for="address" class="mdui-textfield-label">地址</label>
+                            <input id="address" class="mdui-textfield-input" type="text" name="address"
+                                   value="${requestScope.address}"/>
+                        </div>
 
-                    <div class="mdui-textfield mdui-textfield-floating-label">
-                        <label class="mdui-textfield-label">地址</label>
-                        <input class="mdui-textfield-input" type="text" name="address"
-                               value="${requestScope.address}"/>
-                    </div>
-
-                    <div class="mdui-textfield mdui-textfield-floating-label">
-                        <label class="mdui-textfield-label">电话号码</label>
-                        <input class="mdui-textfield-input" type="text" name="phoneNumber"
-                               value="${requestScope.phoneNumber}"/>
+                        <div class="mdui-textfield mdui-textfield-floating-label">
+                            <label for="phoneNumber" class="mdui-textfield-label">电话号码</label>
+                            <input id="phoneNumber" class="mdui-textfield-input" type="text" name="phoneNumber"
+                                   value="${requestScope.phoneNumber}"/>
                     </div>
 
                     <div class="mdui-textfield mdui-textfield-floating-label">
@@ -100,7 +100,7 @@
                          onclick="form.checkImg.src='CheckCode?r='+Math.random()" alt="无法加载验证码">
                     <input class="mdui-btn mdui-ripple" type="button" value="换一张"
                            onclick="form.checkImg.src='CheckCode?aaa='+Math.random()"/>
-
+                    </div>
                     <br>
                     <input class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" type="submit"
                            value="注册"/>
